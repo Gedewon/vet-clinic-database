@@ -43,3 +43,12 @@ ADD CONSTRAINT fk_owners_id
 FOREIGN KEY (owners_id)
 REFERENCES owners(id)
 ON DELETE CASCADE;
+
+CREATE TABLE vets (
+    id                 INT NOT NULL GENERATED ALWAYS AS IDENTITY,
+    name               VARCHAR(100) NOT NULL,
+    age                INT ,
+    date_of_graduation DATE,
+
+    PRIMARY KEY(id)
+);
