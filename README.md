@@ -1,8 +1,7 @@
-# curriculum-databases-projects-template
+# Relational Database Using PostgreSQL
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
+> This project uses a realtional database and PostgreSQL.The database contains a data file with animals Data.
+> the schema needed to create the table and related queries based on the realtional defined.
 
 ## Getting Started
 
@@ -15,7 +14,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## Authors
 
-👤 
+👤 **Gedewon**
 
 - GitHub: [@githubhandle](https://github.com/Gedewon)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/gedewon)
