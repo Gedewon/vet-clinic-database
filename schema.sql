@@ -68,3 +68,21 @@ CREATE TABLE specializations (
 
     PRIMARY KEY(species_id,vets_id)
 );
+
+CREATE TABLE visits (
+  vets_id	    INT NOT NULL,
+  animals_id	INT NOT NULL,
+  date		    DATE,
+
+  CONSTRAINT fk_vets
+  FOREIGN KEY(vets_id)
+  REFERENCES vets(id)
+  ON DELETE CASCADE,
+
+  CONSTRAINT fk_animals 
+  FOREIGN KEY(animals_id)
+  REFERENCES animals(id)
+  ON DELETE CASCADE,
+
+  PRIMARY KEY (vets_id,animals_id)
+);
