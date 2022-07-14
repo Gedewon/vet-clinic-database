@@ -79,10 +79,10 @@ CREATE TABLE visits (
   REFERENCES vets(id)
   ON DELETE CASCADE,
 
-  CONSTRAINT fk_animals 
+  CONSTRAINT fk_animals
   FOREIGN KEY(animals_id)
   REFERENCES animals(id)
   ON DELETE CASCADE,
 
-  PRIMARY KEY (vets_id,animals_id)
+  PRIMARY KEY (vets_id,animals_id,date)
 );

@@ -33,7 +33,7 @@ UPDATE animals
 SET species_id = 1
 WHERE name NOT LIKE '%mon';
 
-UPDATE animals 
+UPDATE animals
 SET owners_id = 1
 WHERE name = 'Agumon';
 
@@ -52,3 +52,12 @@ WHERE name IN('Charmander','Squirtle','Blossom');
 UPDATE animals
 SET owners_id = 5
 WHERE name IN('Angemon','Boarmon');
+
+
+BEGIN;
+INSERT INTO vets (name, age, date_of_graduation)
+VALUES('William Tatcher', 45, '2000-04-23'),
+      ('Maisy Smith', 26, '2019-01-17'),
+      ('Stephanie Mendez', 64, '1980-05-04'),
+      ('Jack Harkness', 38, '2008-06-08');
+COMMIT;
