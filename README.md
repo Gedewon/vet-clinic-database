@@ -3,6 +3,8 @@
 > This project uses a realtional database and PostgreSQL.The database contains a data file with animals Data.
 > the schema needed to create the table and related queries based on the realtional defined.
 
+[Schema Diagram](./drawSQL-export-2022-07-20_00_42.png)
+
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
@@ -10,7 +12,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Use [schema.sql](./schema.sql) to create all tables.
 - Use [data.sql](./data.sql) to populate tables with sample data.
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
 
 ## Authors
 
