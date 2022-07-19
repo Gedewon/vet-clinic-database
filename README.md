@@ -3,7 +3,7 @@
 > This project uses a realtional database and PostgreSQL.The database contains a data file with animals Data.
 > the schema needed to create the table and related queries based on the realtional defined.
 
-[Schema Diagram](./drawSQL-export-2022-07-20_00_42.png)
+![Schema Diagram](./drawSQL-export-2022-07-20_00_42.png)
 
 ## Getting Started
 
